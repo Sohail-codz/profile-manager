@@ -1,0 +1,71 @@
+.mainContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.container h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    letter-spacing: 10px;
+    color: blue;
+}
+
+.container form{
+    width: 400px;
+    font-weight: 500;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.container form .inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container form .inputs input{
+    font-size: 17px;
+    color: rgb(0, 66, 88);
+    width: 240px;
+    min-width: 100px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.container form button{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(147, 255, 147);
+    cursor: pointer;
+}
+
+.loginButton{
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(74, 0, 74);
+    border-bottom: 1px solid rgb(74, 0, 74);
+}
